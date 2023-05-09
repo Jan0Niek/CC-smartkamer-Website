@@ -6,7 +6,7 @@
 
 body {
     font-family: Verdana, Helvetica, sans-serif;
-    background: rgb(4, 82, 12);
+    background: rgb(136, 226, 145);
 }
 .wrapper {
     margin: 0 auto 0 auto;
@@ -34,7 +34,7 @@ a:hover {
 a:active {color: rebeccapurple;}
 
 nav ul {
-    background: rgb(45, 147, 72);
+    background: rgb(129, 182, 143);
     padding: 10px;
 }
 nav ul li {
