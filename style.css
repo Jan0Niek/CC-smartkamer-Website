@@ -83,6 +83,11 @@ section article {
     background: #3A6B1A;
 }
 
+section article h1 {
+    font-weight:800;
+    font-variant-caps:petite-caps;
+    border-bottom: dotted black;
+}
 section article h2 {
   font-weight:800;
   font-variant-caps:petite-caps;
