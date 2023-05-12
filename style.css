@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
@@ -6,6 +8,7 @@
 
 body {
     font-family: Verdana, Helvetica, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     background: #548733;
 }
 .wrapper {
@@ -18,6 +21,8 @@ body {
 header {
     width: 100%;
     background-color: #bef49a;
+    border: solid 2px black;
+    width: 100%;
 }
 header h1 {
     color: black;
@@ -40,23 +45,24 @@ a:active {color: rebeccapurple;}
 nav ul {
     background: #74A653;
     padding: 10px;
+    border: solid 2px black;
+    border-top: 0px;
 }
 nav ul li {
     background: #A2CC86;
     padding: 5px;
-    border: solid 2px white;
+    border: solid 2px rgb(0, 0, 0);
     display: inline-block;
-    font-family: 'JetBrains Mono', monospace;
     font-weight:500;
     font-size: larger;
 }
 
 nav ul li a:link {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration:none;
 }
 nav ul li a:visited {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration:none;
 }
 nav ul li a:hover {
