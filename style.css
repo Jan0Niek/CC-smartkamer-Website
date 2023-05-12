@@ -6,7 +6,7 @@
 
 body {
     font-family: Verdana, Helvetica, sans-serif;
-    background: rgb(136, 226, 145);
+    background: #548733;
 }
 .wrapper {
     margin: 0 auto 0 auto;
@@ -15,8 +15,12 @@ body {
     min-height: 100vmin;
 }
 
-header img {
+header {
     width: 100%;
+    background-color: #bef49a;
+}
+header h1 {
+    color: black;
 }
 
 a:link {
@@ -34,11 +38,11 @@ a:hover {
 a:active {color: rebeccapurple;}
 
 nav ul {
-    background: rgb(129, 182, 143);
+    background: #74A653;
     padding: 10px;
 }
 nav ul li {
-    background: #3849ba;
+    background: #A2CC86;
     padding: 5px;
     border: solid 2px white;
     display: inline-block;
@@ -76,7 +80,7 @@ section article {
     border-radius: 0px 20px 20px 20px;
     margin: 5px 10px 5px 10px;
     padding: 10px;
-    background: #186b11;
+    background: #3A6B1A;
 }
 
 section article h2 {
@@ -90,7 +94,7 @@ section article p {
 }
 
 footer {
-    background: black;
+    background: #1F4805;
     position:absolute;
     bottom: 0%;
     border-radius: 15px 15px 0px 0px;
