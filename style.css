@@ -22,7 +22,7 @@ header {
     width: 100%;
     background-color: #bef49a;
     border: solid 2px black;
-    width: 100%;
+    width:initial;
 }
 header h1 {
     color: black;
@@ -102,6 +102,11 @@ section article h2 {
 
 section article p {
   margin: 4px;
+}
+
+article ul {
+    position: relative;
+    margin-left: 20px;
 }
 
 footer {
