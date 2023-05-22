@@ -104,6 +104,11 @@ section article p {
   margin: 4px;
 }
 
+article ul {
+    position: relative;
+    margin-left: 20px;
+}
+
 footer {
     background: #1F4805;
     position:absolute;
