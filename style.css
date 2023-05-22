@@ -118,3 +118,15 @@ footer h5 {
     font-variant-caps:small-caps;
     position: relative;
 }
+
+img  {
+    margin: 14px;
+    display: block;
+    float: right;
+    width: 400px;
+    height: 300px;
+}
+
+p.wordGroter {
+
+}
