@@ -8,5 +8,8 @@ if (navigator.userAgent.match(/Android/i)
   || navigator.userAgent.match(/BlackBerry/i)
   || navigator.userAgent.match(/Windows Phone/i)) 
   {
+    console.log("yep mobile")
     fontSize = "xx-large";
-  } 
+  } else {
+    console.log("desktop?")
+  }
