@@ -10,10 +10,11 @@ body {
     font-family: Verdana, Helvetica, sans-serif;
     font-family: 'Ubuntu', sans-serif;
     background: #548733;
+    font-size: larger;
 }
 .wrapper {
     margin: 0 auto 0 auto;
-    width: 82%;
+    width: 90%;
     position: relative;
     min-height: 100vmin;
 }
@@ -111,10 +112,10 @@ article ul {
 
 footer {
     background: #1F4805;
-    position:absolute;
+    position:fixed;
     bottom: 0%;
     border-radius: 15px 15px 0px 0px;
-    width: 100%;
+    width: inherit;
 }
 footer.lowerfoot {bottom: -40px;}
 
