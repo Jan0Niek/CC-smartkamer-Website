@@ -1,4 +1,7 @@
-const fontSize = window.getComputedStyle("body").fontSize;
+const element = document.getElementsByName("body");
+const cssObj = window.getComputedStyle(element, null);
+let fontSize = cssObj.getPropertyValue("font-size");
+
 
 if (navigator.userAgent.match(/Android/i)
   || navigator.userAgent.match(/webOS/i)
