@@ -1,6 +1,8 @@
-const fontSize = window.getComputedStyle("body").fontSize;
-
-if (navigator.userAgent.match(/Android/i)
+const elements = document.getElementsByName("body");
+elements.forEach(element => {
+  const cssObj = window.getComputedStyle(element, null);
+  let fontSize = cssObj.getPropertyValue("font-size");
+  if (navigator.userAgent.match(/Android/i)
   || navigator.userAgent.match(/webOS/i)
   || navigator.userAgent.match(/iPhone/i)
   || navigator.userAgent.match(/iPad/i)
@@ -13,3 +15,8 @@ if (navigator.userAgent.match(/Android/i)
   } else {
     console.log("desktop?")
   }
+
+});
+
+
+
